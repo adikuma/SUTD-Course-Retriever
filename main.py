@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 def main():
-    st.title("Course List")
+    st.title("Course Retriever")
 
     if 'courses' not in st.session_state:
         st.session_state.courses = []
